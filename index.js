@@ -1,7 +1,7 @@
 const dodger = document.getElementById("dodger");
 dodger.style.backgroundColor = "#ff5bab";
 
-document.addEventListener('keydown', function (e) {
+document.addEventListener('keydown', function(e) {
   if (e.which === 37) {
     var leftNumbers = dodger.style.left.replace("px","")
     var left = parseInt(leftNumbers, 10)
