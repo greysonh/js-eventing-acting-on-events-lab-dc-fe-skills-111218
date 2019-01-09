@@ -16,7 +16,6 @@ function moveDodgerRight() {
  
   if (left > 0) {
     dodger.style.right = `${left + 2}px`;
-    console.log("right arrow was pushed");
   }
 }
 
